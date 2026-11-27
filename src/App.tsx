@@ -1,6 +1,17 @@
+import { Routes,Route } from "react-router";
+import ChooseRepoPage from "./pages/ChooseRepoPage";
+import ConnectAIPage from "./pages/ConnectAIPage";
+import MainPage from "./pages/MainPage";
+
 function App() {
   return (
-    <h1>CodeLens</h1>
+    <>
+     <Routes>                      
+      <Route path="/" element = {<MainPage />} />      
+      <Route path="/connect-ai" element = {<ConnectAIPage />}/> 
+      <Route path="/repos" element = {<ChooseRepoPage />}/>     
+     </Routes>  
+    </>
   )
 }
 
