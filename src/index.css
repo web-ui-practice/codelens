@@ -1,2 +1,13 @@
 :root {
+  --color-accent: #7760E8;
+  --color-surface: #121419;
+  --color-bg: #0B0C10;
+  --font-main: "Inter", sans-serif;
+  --font-code: "JetBrains Mono", monospace;
+}
+
+body {
+  background-color: var(--color-bg);
+  color: #fff;
+  font-family: var(--font-main);
 }
