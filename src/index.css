@@ -7,6 +7,9 @@
   --color-bg: #0B0C10;
   --font-main: "Inter", sans-serif;
   --font-code: "JetBrains Mono", monospace;
+  --color-text: #F3F4F7;
+  --color-text-muted: #B4BAC8;
+  --color-border: #2B2E38;
 }
 
 body {

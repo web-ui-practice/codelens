@@ -1,6 +1,6 @@
 function ConnectAIPage () {
     return(
-        <h1>ConnectAIPage</h1>
+        <p>ConnectAIPage</p>
     )
 }
 

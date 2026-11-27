@@ -1,6 +1,6 @@
 function ChooseRepoPage () {
     return(
-        <h1>ChooseRepoPage</h1>
+        <p>ChooseRepoPage</p>
     )
 }
 
