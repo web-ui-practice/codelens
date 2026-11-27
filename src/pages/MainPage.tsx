@@ -1,6 +1,12 @@
+import Button from "../components/Button/Button";
+
 function MainPage () {
     return(
-        <h1>MainPage</h1>
+        <>
+         <h1>MainPage</h1>
+         <Button variant="primary">Test</Button>
+         <Button variant="secondary">Test2</Button>
+        </>
     )
 }
 
