@@ -1,6 +1,9 @@
 import styles from './MainPage.module.css';
+import Button from '../components/Button/Button';
+import { useNavigate } from 'react-router';
 
 function MainPage() {
+  const navigate = useNavigate();
   return (
     <main className={styles.container}>
       <header className={styles.header}>
@@ -15,6 +18,11 @@ function MainPage() {
           Find accessibility issues, code smells, and better ways forward. One repository, one
           thoughtful AI scan.
         </p>
+
+        <div className={styles.cta}>
+         <Button variant="primary" onClick={() => navigate('/connect-ai')}>Continue with GitHub →</Button>
+         <p className={styles.note}>Read-only access. Your code stays yours.</p>
+        </div>
       </section>
     </main>
   );
